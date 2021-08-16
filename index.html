@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html> 
-
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css" media='screen'>
+    <link rel="stylesheet" href="style.css">
     <title>Google Homepage Test</title>
 </head>
-
 
 <header id="navbar">
     <ul class="left-nav">
@@ -21,22 +19,24 @@
     </ul>
 </header>
 
-<div id="logo">
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+<div id="main">
+    <div id="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </div>
+
+    <div style="background-color: green;" class="searchbar">
+        <img class="search-icon" src="app-icons/search2.png" alt="">
+        <input type='text' placeholder='Input Text Here'>       
+        <button class='mic-icon'><img src="app-icons/search2.png" alt=""></button>
+    </div>
+
+    <div id="search-buttons">
+        <button type="submit">Google Search</button>
+        <button type="submit">I'm Feeling Lucky</button>
+    </div>
+
 </div>
 
-
-<form id="search">
-    <div id="searchinput">
-        <img class="searchicon" src="/apps-icon/search2.png" alt="">
-        <input class="search-input" type="text" placeholder="Input Search Here">
-        <button><img class="micbutton" src="/apps-icon/search.png" alt=""></button>
-    </div>
-    <div id="divSearchButtons">
-        <li><button class="searchbutton" type="submit">Google Search</button></li>
-        <li><button class="searchbutton"type="submit">I'm Feeling Lucky</button></li>
-    </div>
-</form>
 
 <footer>
     <ul class="footer-left">
