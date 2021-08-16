@@ -1,0 +1,131 @@
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    height: 50 px;
+    display: flex;
+}
+
+footer {
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#f2f2f2;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: rgb(236,235,235)
+}
+
+.footer-right{
+    float: right;
+    font-size: small;
+}
+
+.footer-left{
+    float: left;
+    font-size: small;
+}
+
+.nav-left {
+    float: left;
+    font-size: small;
+}
+
+.nav-right {
+    float: right;
+    font-size: small;
+}
+
+
+.left-nav {
+    /* background-color: dodgerblue; */
+    width: 50%;
+}
+
+.right-nav {
+    /* background-color: orangered; */
+    width: 50%;
+}
+
+#logo {
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#searchinput {
+    display: flex;
+    /*background-color:purple;*/
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#divSearchButtons {
+    display: flex;
+    /*background-color: pink;*/
+    justify-content: center;
+}
+
+.searchbutton {
+    background-color:#f1ededec;
+    width: 130px;
+    height: 65 px;
+    color: rgb(106, 106, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    border-radius: 4px;
+    padding: 5px;
+    border: none;
+    margin: none;
+}
+
+#appsicon {
+    width: 30px;
+    height: auto;
+    vertical-align: super;
+}
+
+input {
+    border-radius: 50px;
+    width: 500px;
+    height: 40px;
+    border-width: 1pt;
+    border-style: solid;
+    border-color: rgba(201,202,201,0.973);
+}
+
+input:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    border-style: none;
+}
+
+li {
+    float: left;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+    vertical-align: middle;
+    list-style-type: none;
+}
+
+li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
