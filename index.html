@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html> 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <title>Google Homepage Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Test Google</title>
 </head>
+
+<html> 
 
 <header id="navbar">
     <ul class="left-nav">
-        <li class="nav-left"><a href="default.asp">About</a></li>
-        <li class="nav-left"><a href="default.asp">Store</a></li>
+        <li><a href="default.asp">About</a></li>
+        <li><a href="default.asp">Store</a></li>
     </ul>
     <ul class="right-nav">
-        <li class="nav-right"><a href style="color: white; background-color:royalblue;"="google.com">Sign In</a></li>
-        <li class="nav-right"><a href="apps.google.com"><img id="appsicon" src="apps-icon/apps2x.png"></a></li>
-        <li class="nav-right"><a href="images.google.com">Images</a></li>
-        <li class="nav-right"><a href="gmail.google.com">Gmail</a></li>
+        <li><a href="images.google.com">Images</a></li>
+        <li><a href="gmail.google.com">Gmail</a></li>
+        <li><a href="apps.google.com"><img id="appsicon" src="apps-icon/apps2x.png"></a></li>
+        <li><a id="sign-in" href="google.com">Sign In</a></li>
         
     </ul>
 </header>
@@ -24,15 +25,15 @@
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
     </div>
 
-    <div style="background-color: green;" class="searchbar">
-        <img class="search-icon" src="app-icons/search2.png" alt="">
+    <div class="searchbar">
+        <img class="search-icon" src="/apps-icon/search2.png" alt="">
         <input type='text' placeholder='Input Text Here'>       
-        <button class='mic-icon'><img src="app-icons/search2.png" alt=""></button>
+        <button class='mic-icon'><img src="/apps-icon/google-microphone.png" alt=""></button>
     </div>
 
     <div id="search-buttons">
-        <button type="submit">Google Search</button>
-        <button type="submit">I'm Feeling Lucky</button>
+        <button class='search-buttons' type="submit">Google Search</button>
+        <button class='search-buttons' type="submit">I'm Feeling Lucky</button>
     </div>
 
 </div>
@@ -40,14 +41,14 @@
 
 <footer>
     <ul class="footer-left">
-        <li class='nav-left'><a href="default.asp">Advertising</a></li>
-        <li class='nav-left'><a href="default.asp">Business</a></li>
-        <li class='nav-left'><a href="default.asp">How Search works</a></li>
+        <li><a class='grey' href="default.asp">Advertising</a></li>
+        <li><a class='grey' href="default.asp">Business</a></li>
+        <li><a class='grey' href="default.asp">How Search works</a></li>
     </ul>
     <ul class="footer-right">
-        <li class='nav-right'><a href="default.asp">Settings</a></li>
-        <li class='nav-right'><a href="default.asp">Terms</a></li>
-        <li class='nav-right'><a href="default.asp">Privacy</a></li>
+        <li><a class='grey' href="default.asp">Privacy</a></li>
+        <li><a class='grey' href="default.asp">Terms</a></li>
+        <li><a class='grey' href="default.asp">Settings</a></li>
     </ul>
 </footer>
 
